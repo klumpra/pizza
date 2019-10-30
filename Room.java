@@ -24,6 +24,10 @@ public class Room {
 	public void setDescription(String description) {
 		this.description = description;
 	}
+	/**
+	 * String representation of a room.
+	 * @return the name and description
+	 */
 	@Override
 	public String toString() {
 		return String.format("%s: %s", name,description);
