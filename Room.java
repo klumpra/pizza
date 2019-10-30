@@ -1,5 +1,5 @@
 import java.util.LinkedHashMap;
-
+/* This represents a Room */
 public class Room {
 	private LinkedHashMap<String,Room> neighbors;
 	private String name;
