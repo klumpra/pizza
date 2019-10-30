@@ -1,6 +1,7 @@
 import java.util.LinkedHashMap;
 /* This represents a Room */
 public class Room {
+	/* another option would be a linked hash map of string,string */
 	private LinkedHashMap<String,Room> neighbors;
 	private String name;
 	/* the following line presents some description of the room */
