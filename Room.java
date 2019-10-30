@@ -3,6 +3,7 @@ import java.util.LinkedHashMap;
 public class Room {
 	private LinkedHashMap<String,Room> neighbors;
 	private String name;
+	/* the following line presents some description of the room */
 	private String description;
 	public LinkedHashMap<String,Room> getNeighbors() {
 		return neighbors;
